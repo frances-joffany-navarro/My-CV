@@ -1,0 +1,130 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-auto-rows: minmax(100px, auto);
+  max-width: 80%;
+  margin: auto;
+  border-radius: 0.5rem;
+  background-color: #ebdcdf;
+}
+
+.one {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.two {
+  grid-column: 2;
+  grid-row: 1/2;
+  text-align: center;
+  padding: 2rem 2rem 0 0;
+  margin: 0;
+  /* color: #ebdcdf;
+  vertical-align: middle;
+  padding-top: 70px; */
+}
+
+.three {
+  grid-column: 1/4;
+  grid-row: 2;
+  padding: 2rem;
+  margin: auto;
+}
+
+div > span {
+  margin: 0 2rem ;
+}
+
+/* .four {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: white;
+} */
+
+body {
+  /* background-image: url(images/white-texture.jpg);
+    background-size: cover; */
+  background-color: #f2eddc;
+  font-family: "Courier New", Courier, monospace;
+}
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  font-size: 35px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+p {
+  font-size: 21px;
+  word-wrap: break-word;
+  max-width: 50rem;
+  text-align: justify;
+}
+
+.firstname {
+  font-weight: 400;
+}
+
+img {
+  max-width: 20rem;
+  border-radius: 50rem;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 10px;
+}
+/* 
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.three h3 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+}
+
+.four h3 {
+  color: #154145;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+}
+
+.three p,
+a {
+  color: white;
+  text-decoration-line: none;
+}
+
+p,
+a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+section {
+  padding: 15px;
+  text-align: justify;
+}
+
+li {
+  list-style-type: circle;
+  color: #154145;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.one img {
+  margin: auto;
+  padding: 20px;
+  display: block;
+} */
