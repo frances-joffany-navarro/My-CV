@@ -1,20 +1,23 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr auto;
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-rows: minmax(100px, auto);
   max-width: 80%;
   margin: auto;
   border-radius: 0.5rem;
-  background-color: #ebdcdf;
+  /* justify-items: center; */
+  background-image: url(images/background1.jpg);
+  background-position: left center;
+  align-items: center;
 }
 
-.one {
+.profile {
   grid-column: 1/2;
   grid-row: 1/2;
   padding: 2rem 2rem 0 2rem;
 }
 
-.two {
+.profile-image {
   grid-column: 2;
   grid-row: 1/2;
   text-align: center;
@@ -25,15 +28,43 @@
   padding-top: 70px; */
 }
 
-.three {
-  grid-column: 1/4;
+.social-media {
+  grid-column: 1/3;
   grid-row: 2;
-  padding: 2rem;
+  padding-top: 1rem;
   margin: auto;
 }
 
+.social-media span, .social-media span a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.projects {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.projects h3 {
+  grid-column: 1/4;
+  text-align: center;
+}
+
+.project1,
+.project2,
+.project3 {
+  border: 5px white;
+  grid-row: 2;
+  margin: 5px;
+  
+}
+
 div > span {
-  margin: 0 2rem ;
+  margin: 0 2rem;
 }
 
 /* .four {
@@ -43,9 +74,7 @@ div > span {
 } */
 
 body {
-  /* background-image: url(images/white-texture.jpg);
-    background-size: cover; */
-  background-color: #f2eddc;
+  /* background-color: #f2eddc; */
   font-family: "Courier New", Courier, monospace;
 }
 h2 {
@@ -69,12 +98,17 @@ p {
   font-weight: 400;
 }
 
-img {
+.profile-image > img {
   max-width: 20rem;
+  border: 10px solid #fff;
   border-radius: 50rem;
-  border-color: #fff;
-  border-style: solid;
-  border-width: 10px;
+  
+}
+
+.projects div > img {
+  border: 10px solid #fff;
+  max-width: 20rem;
+
 }
 /* 
 
