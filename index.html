@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="main.css">
 </head>
 
-<body data-spy="scroll" data-target="#navbarSupportedContent">
+<body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="0">
   <div class="container-fluid">
     <header>
       <nav class="navbar fixed-top navbar-expand-lg navbar-light px-5">
@@ -48,25 +48,78 @@
         </div>
       </nav>
     </header>
-    <main class="content px-5">
-      <h4 id="portfolio" class="px-5">Portfolio</h4>
-      <p class="px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel magnam ut, obcaecati minus nisi odit
-        ducimus
-        maxime architecto id itaque cum aperiam quae molestiae sapiente perferendis cumque explicabo quibusdam impedit
-        laudantium sint mollitia dignissimos facilis delectus temporibus. Magnam voluptatem voluptatum aspernatur
-        minima at illo provident est numquam? Libero obcaecati voluptatum sint delectus explicabo ipsa consequuntur ut
-        quod necessitatibus nulla blanditiis placeat possimus excepturi consectetur sapiente accusantium quia modi,
-        totam dignissimos esse reprehenderit temporibus? Corporis, in temporibus omnis quis voluptates aut molestiae
-        dicta dignissimos, culpa odio numquam ad, deleniti ut quo ducimus accusamus. Itaque nulla fugiat obcaecati
-        error reiciendis nisi quibusdam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus et
-        iste repellat quasi mollitia. Laboriosam dignissimos cumque ipsam possimus quos libero rem tempora, minima,
-        enim nostrum corporis aliquid esse a explicabo veniam saepe! Tempora quam sed, explicabo eligendi, rerum harum
-        a quisquam eaque neque voluptas doloremque mollitia cumque sunt doloribus! Corrupti, ea! Quo tempora, animi
-        quisquam labore, quaerat fugit eaque odit quasi id, deserunt quod eius alias ut dignissimos sequi ex doloribus
-        libero ullam in ipsum nam nihil. Provident beatae culpa quos eveniet porro cupiditate voluptatem possimus,
-        cumque qui quia debitis perferendis enim placeat dolores aut atque earum animi illo?</p>
+    <main class="content">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h3 id="portfolio" class="display-4">Portfolio</h3>
+          <!--  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias laboriosam odio vel
+            distinctio assumenda corrupti quibusdam accusantium et iure dicta libero, at quaerat consequuntur?</p> -->
+
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card text-center h-100">
+                <img src="images/daniel-olah-LHDPiqcOGLI-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Ka[mains]yan Restaurant</strong></h5>
+                  <p class="card-text">Developed a fictional restaurant to showcase a responsive design and recently
+                    updated with a back office, to make it dynamic, as new feature of the website</p>
+                </div>
+                <div class="card-footer">
+                  <!-- <small class="text-muted">Live site</small> -->
+                  <span class="badge badge-success"><small>Solo</small></span> |
+                  <span class="icon-html"><i class="fa-brands fa-html5 fa-lg"></i></span>
+                  <span class="icon-css"><i class="fa-brands fa-css3 fa-lg"></i></span>
+                  <span class="icon-bootstrap"><i class="fa-brands fa-bootstrap fa-lg"></i></span>
+                  <span class="icon-php"><i class="fa-brands fa-php fa-lg"></i></span>
+                  <span class="icon icon-db mr-1"><i class="fa-solid fa-database fa-lg"></i><small> SQL </small></span>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card text-center h-100">
+                <img src="images/daniel-mingook-kim-wTkKb4eQOQo-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>JS Data Visualization</strong></h5>
+                  <p class="card-text">Added an interactive data visualization as new feature for a website. Manipulated
+                    the data using DOM and used Chart.js as a third-party library.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <span class="badge badge-success"><small>Solo</small></span> |
+                  <span class="icon-js"><i class="fa-brands fa-js-square fa-lg"></i></span>
+                  <span class="badge badge-info"><small>AJAX / FETCH</small></span>
+
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card text-center h-100">
+                <img src="images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Getflix Project</strong></h5>
+                  <p class="card-text text">Developed a dynamic streaming site that displays a catalog movies. Added an
+                    integrated newsletter with MailChimp and management of lost password features.</p>
+                </div>
+                <div class="card-footer">
+                  <span class="badge badge-success"><small>Group</small></span> |
+                  <span class="icon-html"><i class="fa-brands fa-html5 fa-lg"></i></span>
+                  <span class="icon-css"><i class="fa-brands fa-css3 fa-lg"></i></span>
+                  <span class="icon-bootstrap"><i class="fa-brands fa-bootstrap fa-lg"></i></span>
+                  <span class="icon-js"><i class="fa-brands fa-js-square fa-lg"></i></span>
+                  <span class="icon-php"><i class="fa-brands fa-php fa-lg"></i></span>
+                  <span class="icon icon-db mr-1"><i class="fa-solid fa-database fa-lg"></i><small> SQL </small></span>
+                  <span class="badge badge-info "><small> API</small></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <h4 id="about" class="px-5">About</h4>
-      <p class="px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel magnam ut, obcaecati minus nisi odit
+      <p class="px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel magnam ut, obcaecati minus nisi
+        odit
         ducimus
         maxime architecto id itaque cum aperiam quae molestiae sapiente perferendis cumque explicabo quibusdam impedit
         laudantium sint mollitia dignissimos facilis delectus temporibus. Magnam voluptatem voluptatum aspernatur
@@ -82,7 +135,8 @@
         libero ullam in ipsum nam nihil. Provident beatae culpa quos eveniet porro cupiditate voluptatem possimus,
         cumque qui quia debitis perferendis enim placeat dolores aut atque earum animi illo?</p>
       <h4 id="resume" class="px-5">Resume</h4>
-      <p class="px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel magnam ut, obcaecati minus nisi odit
+      <p class="px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel magnam ut, obcaecati minus nisi
+        odit
         ducimus
         maxime architecto id itaque cum aperiam quae molestiae sapiente perferendis cumque explicabo quibusdam impedit
         laudantium sint mollitia dignissimos facilis delectus temporibus. Magnam voluptatem voluptatum aspernatur
